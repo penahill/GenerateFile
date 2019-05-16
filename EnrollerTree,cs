@@ -1,0 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Distro
+{
+    public class EnrollerTree
+    {
+        public int MemberID { get; set; }
+        public int EnrollerID { get; set; }
+        public DateTime AssociatedDate { get; set; }
+    }
+}
